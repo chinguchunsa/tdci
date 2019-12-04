@@ -1,0 +1,107 @@
+ &DYNAMICS 
+ init_states(0) = 1 
+ init_states(1) = 1 
+ init_coeffs(1) = (1.00000,0.00000) 
+ restart        = .False. 
+ / 
+ &FIELD 
+ dirform  = 'polar' 
+ ellipt   =  1.000 
+ envelope =  'stat' 
+ ncyc     =      7 
+ omega    =  0.057 
+ phase    =  90.00 
+ euler    =  0.000 
+ / 
+ &FIELD_units 
+ omega_units = 'au' 
+ / 
+ &FIELD_strengths 
+ nemax = 1 
+ read_emax(1) = 0.03 
+ / 
+ &FIELD_directions 
+ ndir = 62 
+ read_theta(1)  = 0.d0   ;  read_phi(1)  = 0.d0 
+ read_theta(2)  = 30.d0  ;  read_phi(2)  = 0.d0 
+ read_theta(3)  = 30.d0  ;  read_phi(3)  = 30.d0 
+ read_theta(4)  = 30.d0  ;  read_phi(4)  = 60.d0 
+ read_theta(5)  = 30.d0  ;  read_phi(5)  = 90.d0 
+ read_theta(6)  = 30.d0  ;  read_phi(6)  = 120.d0 
+ read_theta(7)  = 30.d0  ;  read_phi(7)  = 150.d0 
+ read_theta(8)  = 30.d0  ;  read_phi(8)  = 180.d0 
+ read_theta(9)  = 30.d0  ;  read_phi(9)  = 210.d0 
+ read_theta(10) = 30.d0  ;  read_phi(10) = 240.d0 
+ read_theta(11) = 30.d0  ;  read_phi(11) = 270.d0 
+ read_theta(12) = 30.d0  ;  read_phi(12) = 300.d0 
+ read_theta(13) = 30.d0  ;  read_phi(13) = 330.d0 
+ read_theta(14) = 60.d0  ;  read_phi(14) = 0.d0 
+ read_theta(15) = 60.d0  ;  read_phi(15) = 30.d0 
+ read_theta(16) = 60.d0  ;  read_phi(16) = 60.d0 
+ read_theta(17) = 60.d0  ;  read_phi(17) = 90.d0 
+ read_theta(18) = 60.d0  ;  read_phi(18) = 120.d0 
+ read_theta(19) = 60.d0  ;  read_phi(19) = 150.d0 
+ read_theta(20) = 60.d0  ;  read_phi(20) = 180.d0 
+ read_theta(21) = 60.d0  ;  read_phi(21) = 210.d0 
+ read_theta(22) = 60.d0  ;  read_phi(22) = 240.d0 
+ read_theta(23) = 60.d0  ;  read_phi(23) = 270.d0 
+ read_theta(24) = 60.d0  ;  read_phi(24) = 300.d0 
+ read_theta(25) = 60.d0  ;  read_phi(25) = 330.d0 
+ read_theta(26) = 90.d0  ;  read_phi(26) = 0.d0 
+ read_theta(27) = 90.d0  ;  read_phi(27) = 30.d0 
+ read_theta(28) = 90.d0  ;  read_phi(28) = 60.d0 
+ read_theta(29) = 90.d0  ;  read_phi(29) = 90.d0 
+ read_theta(30) = 90.d0  ;  read_phi(30) = 120.d0 
+ read_theta(31) = 90.d0  ;  read_phi(31) = 150.d0 
+ read_theta(32) = 90.d0  ;  read_phi(32) = 180.d0 
+ read_theta(33) = 90.d0  ;  read_phi(33) = 210.d0 
+ read_theta(34) = 90.d0  ;  read_phi(34) = 240.d0 
+ read_theta(35) = 90.d0  ;  read_phi(35) = 270.d0 
+ read_theta(36) = 90.d0  ;  read_phi(36) = 300.d0 
+ read_theta(37) = 90.d0  ;  read_phi(37) = 330.d0 
+ read_theta(38) = 120.d0  ;  read_phi(38) = 0.d0 
+ read_theta(39) = 120.d0  ;  read_phi(39) = 30.d0 
+ read_theta(40) = 120.d0  ;  read_phi(40) = 60.d0 
+ read_theta(41) = 120.d0  ;  read_phi(41) = 90.d0 
+ read_theta(42) = 120.d0  ;  read_phi(42) = 120.d0 
+ read_theta(43) = 120.d0  ;  read_phi(43) = 150.d0 
+ read_theta(44) = 120.d0  ;  read_phi(44) = 180.d0 
+ read_theta(45) = 120.d0  ;  read_phi(45) = 210.d0 
+ read_theta(46) = 120.d0  ;  read_phi(46) = 240.d0 
+ read_theta(47) = 120.d0  ;  read_phi(47) = 270.d0 
+ read_theta(48) = 120.d0  ;  read_phi(48) = 300.d0 
+ read_theta(49) = 120.d0  ;  read_phi(49) = 330.d0 
+ read_theta(50) = 150.d0  ;  read_phi(50) = 0.d0 
+ read_theta(51) = 150.d0  ;  read_phi(51) = 30.d0 
+ read_theta(52) = 150.d0  ;  read_phi(52) = 60.d0 
+ read_theta(53) = 150.d0  ;  read_phi(53) = 90.d0 
+ read_theta(54) = 150.d0  ;  read_phi(54) = 120.d0 
+ read_theta(55) = 150.d0  ;  read_phi(55) = 150.d0 
+ read_theta(56) = 150.d0  ;  read_phi(56) = 180.d0 
+ read_theta(57) = 150.d0  ;  read_phi(57) = 210.d0 
+ read_theta(58) = 150.d0  ;  read_phi(58) = 240.d0 
+ read_theta(59) = 150.d0  ;  read_phi(59) = 270.d0 
+ read_theta(60) = 150.d0  ;  read_phi(60) = 300.d0 
+ read_theta(61) = 150.d0  ;  read_phi(61) = 330.d0 
+ read_theta(62) = 180.d0  ;  read_phi(62) = 0.d0 
+ / 
+ &InOutFILES 
+ tdcidatfile     = '/wsu/home/gq/gq39/gq3921/BENCHMARK_CASES/TDA/water/TDCI.dat' 
+ outputfile      = 'OUTPUT' 
+ restartbinfile  = 'OUTPUT_RESTART.bin' or none 
+ / 
+ &SYSTEM 
+ dt          =  0.050 
+ eigmax      = 10.000 
+ ionization  = -1.000 
+ jobtype     = 'tda' 
+ nstep       =  16000 
+ outstep     =     50 
+ / 
+ &SYSTEM_units 
+ dt_units     = 'au' 
+ eigmax_units = 'au' 
+ / 
+&DAVIDSON 
+ flag_davidson = .False. 
+ / 

@@ -1,0 +1,1527 @@
+read_vabs_ao:
+     61, Loop not vectorized/parallelized: contains call
+read_dipx_ao:
+     93, Loop not vectorized/parallelized: contains call
+read_dipy_ao:
+    125, Loop not vectorized/parallelized: contains call
+read_dipz_ao:
+    157, Loop not vectorized/parallelized: contains call
+read_socx_ao:
+    187, Loop not vectorized/parallelized: contains call
+    202, Loop not vectorized/parallelized: contains call
+read_socy_ao:
+    232, Loop not vectorized/parallelized: contains call
+    247, Loop not vectorized/parallelized: contains call
+read_socz_ao:
+    277, Loop not vectorized/parallelized: contains call
+    292, Loop not vectorized/parallelized: contains call
+read_orben:
+    324, Loop not vectorized/parallelized: contains call
+read_cmo:
+    362, Loop not vectorized/parallelized: contains call
+    363, Loop not vectorized/parallelized: contains call
+read_custom_ham:
+    391, Zero trip check eliminated
+         Loop not vectorized/parallelized: contains call
+    396, Loop not fused: function call before adjacent loop
+    397, Loop not vectorized: data dependency
+         Loop unrolled 8 times
+         Generated 1 prefetches in scalar loop
+read_bucket_1:
+    419, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    424, Loop not vectorized/parallelized: contains call
+read_bucket_2:
+    442, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    447, Loop not vectorized/parallelized: contains call
+read_bucket_3:
+    464, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    469, Loop not vectorized/parallelized: contains call
+read_bucket_4:
+    487, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    493, Loop not vectorized/parallelized: contains call
+read_bucket_5:
+    515, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    520, Loop not vectorized/parallelized: contains call
+read_bucket_6:
+    538, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    543, Loop not vectorized/parallelized: contains call
+read_bucket_7:
+    561, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    566, Loop not vectorized/parallelized: contains call
+read_bucket_8:
+    584, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    589, Loop not vectorized/parallelized: contains call
+read_bucket_9:
+    607, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    613, Loop not vectorized/parallelized: contains call
+read_bucket_10:
+    635, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    641, Loop not vectorized/parallelized: contains call
+read_bucket_11:
+    660, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    665, Loop not vectorized/parallelized: contains call
+read_bucket_12:
+    683, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    688, Loop not vectorized/parallelized: contains call
+read_bucket_13:
+    706, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    711, Loop not vectorized/parallelized: contains call
+read_bucket_14:
+    729, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    734, Loop not vectorized/parallelized: contains call
+read_bucket_15:
+    752, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    757, Loop not vectorized/parallelized: contains call
+read_bucket_16:
+    775, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    780, Loop not vectorized/parallelized: contains call
+read_bucket_17:
+    798, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    803, Loop not vectorized/parallelized: contains call
+read_bucket_18:
+    821, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    826, Loop not vectorized/parallelized: contains call
+read_bucket_19:
+    844, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    850, Loop not vectorized/parallelized: contains call
+read_bucket_20:
+    871, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    876, Loop not vectorized/parallelized: contains call
+read_bucket_21:
+    894, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    900, Loop not vectorized/parallelized: contains call
+  Timing stats:
+    init                    50 millisecs     7%
+    import                 233 millisecs    36%
+    expand                  16 millisecs     2%
+    vectorize              101 millisecs    15%
+    optimize                50 millisecs     7%
+    schedule               167 millisecs    26%
+    unroll                  16 millisecs     2%
+    Total time             633 millisecs
+set_default:
+    132, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    153, Memory set idiom, loop replaced by call to __c_mset8
+    157, Memory set idiom, loop replaced by call to __c_mset8
+    158, Memory set idiom, loop replaced by call to __c_mset8
+read_tdcihead:
+    213, Loop not vectorized/parallelized: contains call
+set_variables:
+    323, Loop not fused: function call before adjacent loop
+    329, Memory zero idiom, loop replaced by call to __c_mzero8
+    330, Memory zero idiom, loop replaced by call to __c_mzero8
+    339, Loop not vectorized/parallelized: contains call
+allocate_main:
+    526, Memory zero idiom, loop replaced by call to __c_mzero8
+    527, Memory zero idiom, loop replaced by call to __c_mzero8
+    532, Memory zero idiom, loop replaced by call to __c_mzero8
+    542, Memory zero idiom, loop replaced by call to __c_mzero8
+    543, Memory zero idiom, loop replaced by call to __c_mzero8
+    545, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    546, Memory zero idiom, loop replaced by call to __c_mzero8
+    548, Memory zero idiom, loop replaced by call to __c_mzero8
+    549, Memory zero idiom, loop replaced by call to __c_mzero8
+    551, Memory zero idiom, loop replaced by call to __c_mzero8
+    552, Memory zero idiom, loop replaced by call to __c_mzero8
+    567, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    568, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    572, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    573, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    577, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    578, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    582, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    583, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    592, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    595, Memory zero idiom, loop replaced by call to __c_mzero8
+    603, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    606, Memory zero idiom, loop replaced by call to __c_mzero8
+    614, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    615, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    616, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    621, Memory zero idiom, loop replaced by call to __c_mzero8
+    622, Memory zero idiom, loop replaced by call to __c_mzero8
+    623, Memory zero idiom, loop replaced by call to __c_mzero8
+    635, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    638, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    645, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    646, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    647, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    652, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    653, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    654, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    662, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    663, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    664, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+read_hamdata:
+    887, Loop not fused: function call before adjacent loop
+         Loop not vectorized/parallelized: loop count too small
+         Generated vector simd code for the loop
+    888, Loop not fused: function call before adjacent loop
+         Loop not vectorized/parallelized: loop count too small
+         Generated vector simd code for the loop
+         Residual loop unrolled 6 times (completely unrolled)
+    889, Memory set idiom, loop replaced by call to __c_mset4
+    893, Memory zero idiom, loop replaced by call to __c_mzero4
+write_input:
+    950, Loop not vectorized/parallelized: contains call
+    953, Loop not vectorized/parallelized: contains call
+    977, Loop not vectorized/parallelized: contains call
+    985, Loop not vectorized/parallelized: contains call
+    991, Loop not vectorized/parallelized: contains call
+    994, Loop not vectorized/parallelized: contains call
+  Timing stats:
+    init                    32 millisecs     5%
+    import                  83 millisecs    15%
+    expand                  33 millisecs     6%
+    vectorize               85 millisecs    15%
+    optimize                84 millisecs    15%
+    schedule               217 millisecs    39%
+    unroll                  16 millisecs     2%
+    Total time             550 millisecs
+check_emax:
+     58, Loop not vectorized/parallelized: contains call
+get_lindirection:
+     92, Loop not fused: no successor loop
+     99, Loop not vectorized: may not be beneficial
+    113, Loop not fused: function call before adjacent loop
+    122, Loop not vectorized: may not be beneficial
+get_circdirection:
+    165, Array assignment / Forall at line 166 fused
+         Loop not fused: different loop trip count
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated an alternate version of the loop
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 1 prefetches in scalar loop
+    168, Loop not fused: function call before adjacent loop
+    169, Loop not vectorized: data dependency
+null_env:
+    244, Memory zero idiom, loop replaced by call to __c_mzero8
+cos_env:
+    268, Memory zero idiom, loop replaced by call to __c_mzero8
+    269, Memory zero idiom, loop replaced by call to __c_mzero8
+    272, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop containing conditionals
+trap_env:
+    298, Memory zero idiom, loop replaced by call to __c_mzero8
+    299, Memory zero idiom, loop replaced by call to __c_mzero8
+    301, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+gau_env:
+    350, Memory zero idiom, loop replaced by call to __c_mzero8
+    351, Memory zero idiom, loop replaced by call to __c_mzero8
+    353, Generated vector simd code for the loop containing conditionals
+cw_env:
+    385, Memory zero idiom, loop replaced by call to __c_mzero8
+    386, Memory zero idiom, loop replaced by call to __c_mzero8
+    388, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop containing conditionals
+    396, Memory copy idiom, loop replaced by call to __c_mcopy8
+cs_env:
+    418, Memory zero idiom, loop replaced by call to __c_mzero8
+    419, Memory zero idiom, loop replaced by call to __c_mzero8
+    421, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop containing conditionals
+sin2_env:
+    454, Memory zero idiom, loop replaced by call to __c_mzero8
+    455, Memory zero idiom, loop replaced by call to __c_mzero8
+    457, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop containing conditionals
+circ_env:
+    485, Memory zero idiom, loop replaced by call to __c_mzero8
+    486, Memory zero idiom, loop replaced by call to __c_mzero8
+    487, Memory zero idiom, loop replaced by call to __c_mzero8
+    489, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop containing conditionals
+  Timing stats:
+    init                    34 millisecs    11%
+    import                  33 millisecs    11%
+    vectorize              116 millisecs    38%
+    optimize                33 millisecs    11%
+    schedule                67 millisecs    22%
+    unroll                  17 millisecs     5%
+    Total time             300 millisecs
+det00:
+     29, Loop not fused: complex flow graph
+         Loop not parallelized: may not be beneficial
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+     34, Loop not parallelized: may not be beneficial
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+ao2mo:
+     66, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+     67, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+     70, Loop not fused: function call before adjacent loop
+     77, Loop not parallelized: may not be beneficial
+         Generated 2 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+ao2mo_complex:
+    106, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    107, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    110, Loop not fused: dependence chain to sibling loop
+    111, Parallel code generated with block distribution if trip count is greater than or equal to 50
+    113, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    119, Loop not fused: function call before adjacent loop
+    120, Parallel code generated with block distribution if trip count is greater than or equal to 50
+    121, Zero trip check eliminated
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+form1det:
+    160, Memory zero idiom, loop replaced by call to __c_mzero8
+    165, Loop not fused: different loop trip count
+         Loop not vectorized: data dependency
+    190, Zero trip check eliminated
+         Invariant if transformation
+         Loop not fused: no successor loop
+zform1det:
+    245, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    250, Loop not fused: different loop trip count
+         Loop not vectorized: data dependency
+    276, Zero trip check eliminated
+         Invariant if transformation
+         Loop not fused: no successor loop
+         Loop not vectorized: mixed data types
+form1det_ip:
+    332, Memory zero idiom, loop replaced by call to __c_mzero8
+    342, Zero trip check eliminated
+form1cis:
+    498, Zero trip check eliminated
+         Loop not fused: different loop trip count
+         Loop not parallelized: innermost
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 8 times
+         Generated 1 prefetches in scalar loop
+    506, dot_product reduction inlined
+         Loop not parallelized: non-private scalar -- tmpmat$r
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    516, Memory copy idiom, loop replaced by call to __c_mcopy8
+    520, dot_product reduction inlined
+         Loop not parallelized: non-private scalar -- tmpmat$r1
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    531, Memory copy idiom, loop replaced by call to __c_mcopy8
+zform1cis:
+    564, Zero trip check eliminated
+         Loop not fused: different loop trip count
+         Loop not parallelized: innermost
+         Loop unrolled 8 times
+         Generated 2 prefetches in scalar loop
+    573, Loop not parallelized: non-private scalar -- cdum
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    587, Memory copy idiom, loop replaced by call to __c_mcopy16
+    596, Loop not parallelized: non-private scalar -- cdum
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    611, Memory copy idiom, loop replaced by call to __c_mcopy16
+exp_mat:
+    643, Memory copy idiom, loop replaced by call to __c_mcopy8
+    656, Memory zero idiom, loop replaced by call to __c_mzero8
+    657, Loop not fused: function call before adjacent loop
+    664, Loop not parallelized: may not be beneficial
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+zexp_mat:
+    700, Memory copy idiom, array assignment replaced by call to pgf90_mcopyz16
+    713, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    714, Loop not fused: function call before adjacent loop
+    718, Zero trip check eliminated
+    723, Zero trip check eliminated
+         Loop not parallelized: may not be beneficial
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+matmult:
+    753, Memory copy idiom, loop replaced by call to __c_mcopy8
+    756, Zero trip check eliminated
+    759, Zero trip check eliminated
+         Loop not parallelized: may not be beneficial
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    767, Loop not fused: function call before adjacent loop
+    769, Loop not vectorized: data dependency
+         Loop unrolled 8 times
+         Generated 1 prefetches in scalar loop
+zmatmult:
+    802, Memory copy idiom, loop replaced by call to __c_mcopy16
+    805, Zero trip check eliminated
+    808, Zero trip check eliminated
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    816, Loop not fused: function call before adjacent loop
+    818, Loop not vectorized: data dependency
+         Loop unrolled 8 times
+         Generated 2 prefetches in scalar loop
+  Timing stats:
+    init                    49 millisecs     8%
+    vectorize              232 millisecs    42%
+    optimize                66 millisecs    12%
+    schedule               118 millisecs    21%
+    unroll                  85 millisecs    15%
+    Total time             550 millisecs
+get_cisd_0:
+     24, Memory zero idiom, loop replaced by call to __c_mzero8
+     28, Loop not vectorized/parallelized: too deeply nested
+     32, Loop not vectorized/parallelized: contains call
+     43, Loop not vectorized/parallelized: too deeply nested
+     46, Loop not vectorized/parallelized: contains call
+     56, Loop not vectorized/parallelized: too deeply nested
+     59, Loop not vectorized/parallelized: contains call
+get_cisd_ia_aa:
+     88, Memory zero idiom, loop replaced by call to __c_mzero8
+    100, Loop not vectorized/parallelized: contains call
+    108, Loop not vectorized/parallelized: contains call
+    123, Loop not vectorized/parallelized: contains call
+    129, Loop not vectorized/parallelized: contains call
+    142, Loop not vectorized/parallelized: contains call
+    148, Loop not vectorized/parallelized: contains call
+    159, Loop not vectorized/parallelized: contains call
+    165, Loop not vectorized/parallelized: contains call
+    177, Loop not vectorized/parallelized: contains call
+    190, Loop not vectorized/parallelized: contains call
+    206, Loop not vectorized/parallelized: contains call
+    218, Loop not vectorized/parallelized: contains call
+    229, Loop not vectorized/parallelized: contains call
+get_cisd_ia_bb:
+    264, Memory zero idiom, loop replaced by call to __c_mzero8
+    276, Loop not vectorized/parallelized: contains call
+    284, Loop not vectorized/parallelized: contains call
+    299, Loop not vectorized/parallelized: contains call
+    305, Loop not vectorized/parallelized: contains call
+    317, Loop not vectorized/parallelized: contains call
+    323, Loop not vectorized/parallelized: contains call
+    334, Loop not vectorized/parallelized: contains call
+    340, Loop not vectorized/parallelized: contains call
+    351, Loop not vectorized/parallelized: contains call
+    364, Loop not vectorized/parallelized: contains call
+    379, Loop not vectorized/parallelized: contains call
+    390, Loop not vectorized/parallelized: contains call
+    401, Loop not vectorized/parallelized: contains call
+get_cisd_ijab_aaaa:
+    435, Memory zero idiom, loop replaced by call to __c_mzero8
+    450, Loop not vectorized/parallelized: contains call
+    457, Loop not vectorized/parallelized: contains call
+    463, Loop not vectorized/parallelized: contains call
+    469, Loop not vectorized/parallelized: contains call
+    496, Loop not vectorized/parallelized: contains call
+    505, Loop not vectorized/parallelized: contains call
+    518, Loop not vectorized/parallelized: contains call
+    524, Loop not vectorized/parallelized: contains call
+    535, Loop not vectorized/parallelized: contains call
+    541, Loop not vectorized/parallelized: contains call
+    554, Loop not vectorized/parallelized: contains call
+    560, Loop not vectorized/parallelized: contains call
+    570, Loop not vectorized/parallelized: contains call
+    576, Loop not vectorized/parallelized: contains call
+    589, Loop not vectorized/parallelized: contains call
+    595, Loop not vectorized/parallelized: contains call
+    605, Loop not vectorized/parallelized: contains call
+    611, Loop not vectorized/parallelized: contains call
+    624, Loop not vectorized/parallelized: contains call
+    630, Loop not vectorized/parallelized: contains call
+    640, Loop not vectorized/parallelized: contains call
+    646, Loop not vectorized/parallelized: contains call
+    659, Loop not vectorized/parallelized: contains call
+    669, Loop not vectorized/parallelized: contains call
+    679, Loop not vectorized/parallelized: contains call
+    689, Loop not vectorized/parallelized: contains call
+    700, Multiple reductions compressed
+         Loop not vectorized/parallelized: contains call
+    710, Loop not vectorized/parallelized: contains call
+    723, Loop not vectorized/parallelized: contains call
+    733, Multiple reductions compressed
+         Loop not vectorized/parallelized: contains call
+    747, Loop not vectorized/parallelized: contains call
+    758, Loop not vectorized/parallelized: contains call
+    771, Loop not vectorized/parallelized: contains call
+    782, Loop not vectorized/parallelized: contains call
+get_cisd_ijab_bbbb:
+    821, Memory zero idiom, loop replaced by call to __c_mzero8
+    837, Loop not vectorized/parallelized: contains call
+    844, Loop not vectorized/parallelized: contains call
+    850, Loop not vectorized/parallelized: contains call
+    854, Loop not vectorized/parallelized: contains call
+    860, Loop not vectorized/parallelized: contains call
+    864, Loop not vectorized/parallelized: contains call
+    890, Loop not vectorized/parallelized: contains call
+    899, Loop not vectorized/parallelized: contains call
+    913, Loop not vectorized/parallelized: contains call
+    919, Loop not vectorized/parallelized: contains call
+    928, Loop not vectorized/parallelized: contains call
+    934, Loop not vectorized/parallelized: contains call
+    947, Loop not vectorized/parallelized: contains call
+    953, Loop not vectorized/parallelized: contains call
+    962, Loop not vectorized/parallelized: contains call
+    968, Loop not vectorized/parallelized: contains call
+    981, Loop not vectorized/parallelized: contains call
+    987, Loop not vectorized/parallelized: contains call
+    996, Loop not vectorized/parallelized: contains call
+   1002, Loop not vectorized/parallelized: contains call
+   1015, Loop not vectorized/parallelized: contains call
+   1021, Loop not vectorized/parallelized: contains call
+   1030, Loop not vectorized/parallelized: contains call
+   1036, Loop not vectorized/parallelized: contains call
+   1049, Loop not vectorized/parallelized: contains call
+   1058, Loop not vectorized/parallelized: contains call
+   1067, Loop not vectorized/parallelized: contains call
+   1076, Loop not vectorized/parallelized: contains call
+   1086, Multiple reductions compressed
+         Loop not vectorized/parallelized: contains call
+   1095, Loop not vectorized/parallelized: contains call
+   1108, Loop not vectorized/parallelized: contains call
+   1117, Multiple reductions compressed
+         Loop not vectorized/parallelized: contains call
+   1131, Loop not vectorized/parallelized: contains call
+   1140, Loop not vectorized/parallelized: contains call
+   1154, Loop not vectorized/parallelized: contains call
+   1163, Loop not vectorized/parallelized: contains call
+get_cisd_ijab_abab:
+   1202, Memory zero idiom, loop replaced by call to __c_mzero8
+   1216, Loop not vectorized/parallelized: contains call
+   1223, Loop not vectorized/parallelized: contains call
+   1229, Loop not vectorized/parallelized: contains call
+   1236, Loop not vectorized/parallelized: contains call
+   1260, Loop not vectorized/parallelized: contains call
+   1266, Loop not vectorized/parallelized: contains call
+   1276, Loop not vectorized/parallelized: contains call
+   1282, Loop not vectorized/parallelized: contains call
+   1293, Loop not vectorized/parallelized: contains call
+   1299, Loop not vectorized/parallelized: contains call
+   1309, Loop not vectorized/parallelized: contains call
+   1315, Loop not vectorized/parallelized: contains call
+   1325, Loop not vectorized/parallelized: contains call
+   1334, Loop not vectorized/parallelized: contains call
+   1344, Loop not vectorized/parallelized: contains call
+   1353, Loop not vectorized/parallelized: contains call
+   1363, Loop not vectorized/parallelized: contains call
+   1373, Loop not vectorized/parallelized: contains call
+   1384, Loop not vectorized/parallelized: contains call
+   1394, Loop not vectorized/parallelized: contains call
+   1401, Loop not vectorized/parallelized: contains call
+   1411, Loop not vectorized/parallelized: contains call
+   1421, Loop not vectorized/parallelized: contains call
+   1431, Loop not vectorized/parallelized: contains call
+get_cisd_diagonal:
+   1466, Memory zero idiom, loop replaced by call to __c_mzero8
+   1475, Loop not vectorized/parallelized: contains call
+   1484, Loop not vectorized/parallelized: contains call
+   1493, Loop not vectorized/parallelized: too deeply nested
+   1496, Loop not vectorized/parallelized: contains call
+   1511, Loop not vectorized/parallelized: too deeply nested
+   1514, Loop not vectorized/parallelized: contains call
+   1529, Loop not vectorized/parallelized: too deeply nested
+   1532, Loop not vectorized/parallelized: contains call
+get_cisd_index:
+   1562, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+   1563, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+   1581, Loop not vectorized/parallelized: contains call
+   1593, Loop not vectorized/parallelized: contains call
+   1606, Loop not vectorized/parallelized: too deeply nested
+   1611, Loop not vectorized/parallelized: contains call
+   1624, Loop not vectorized/parallelized: too deeply nested
+   1629, Loop not vectorized/parallelized: contains call
+   1641, Loop not vectorized/parallelized: too deeply nested
+   1646, Loop not vectorized/parallelized: contains call
+   1662, Loop not vectorized/parallelized: contains call
+   1665, Loop not vectorized/parallelized: contains call
+   1671, Loop not vectorized/parallelized: contains call
+   1677, Loop not vectorized/parallelized: contains call
+   1683, Loop not vectorized/parallelized: contains call
+write_cisd_hamiltonian:
+   1709, Loop not vectorized/parallelized: contains call
+   1718, Loop not vectorized/parallelized: contains call
+   1726, Loop not vectorized/parallelized: too deeply nested
+   1729, Loop not vectorized/parallelized: contains call
+   1739, Loop not vectorized/parallelized: too deeply nested
+   1742, Loop not vectorized/parallelized: contains call
+   1752, Loop not vectorized/parallelized: too deeply nested
+   1755, Loop not vectorized/parallelized: contains call
+  Timing stats:
+    init                    65 millisecs    13%
+    import                  34 millisecs     7%
+    vectorize              116 millisecs    24%
+    optimize                84 millisecs    17%
+    schedule               134 millisecs    27%
+    assemble                16 millisecs     3%
+    unroll                  34 millisecs     7%
+    Total time             483 millisecs
+get_cis:
+     44, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+     48, Loop not fused: no successor loop
+     52, Zero trip check eliminated
+         Unrolled inner loop 4 times
+         Used combined stores for 1 stores
+         Generated 3 prefetch instructions for the loop
+     65, Loop not fused: different loop trip count
+     68, Zero trip check eliminated
+         Unrolled inner loop 4 times
+         Used combined stores for 1 stores
+         Generated 2 prefetch instructions for the loop
+     79, Loop not fused: different loop trip count
+     82, Zero trip check eliminated
+         Unrolled inner loop 4 times
+         Used combined stores for 1 stores
+         Generated 2 prefetch instructions for the loop
+     93, Loop not fused: different loop trip count
+     97, Unrolled inner loop 4 times
+         Generated 2 prefetch instructions for the loop
+    110, Loop not fused: function call before adjacent loop
+    111, Zero trip check eliminated
+         Loop not parallelized: innermost
+         Generated 4 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    119, Zero trip check eliminated
+         Loop not vectorized/parallelized: contains call
+get_soc_cis:
+    196, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    200, Loop not vectorized/parallelized: too deeply nested
+    211, Loop not vectorized/parallelized: contains call
+    226, Loop not vectorized/parallelized: contains call
+    238, Loop not fused: different loop trip count
+         Innermost loop distributed: 2 new loops
+         Loop not parallelized: may not be beneficial
+         Loop unrolled 8 times
+         Loop unrolled 4 times
+         Generated 2 prefetches in scalar loop
+    246, Loop not vectorized: data dependency
+         Loop unrolled 4 times
+    268, Loop not vectorized/parallelized: contains call
+    282, Loop not fused: different loop trip count
+         Loop not vectorized: data dependency
+         Loop unrolled 8 times
+         Generated 2 prefetches in scalar loop
+    291, Innermost loop distributed: 2 new loops
+         Loop not parallelized: may not be beneficial
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Loop unrolled 8 times
+         Generated 2 prefetches in scalar loop
+    313, Loop not vectorized/parallelized: contains call
+    340, Loop not vectorized/parallelized: contains call
+    356, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    357, Loop not fused: function call before adjacent loop
+    358, Zero trip check eliminated
+         Loop not parallelized: innermost
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    367, Zero trip check eliminated
+         Loop not vectorized/parallelized: contains call
+get_soc_ao2mo:
+    420, Loop not fused: different loop trip count
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    421, Loop not fused: different loop trip count
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    422, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    426, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    429, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    434, Zero trip check eliminated
+         Loop not vectorized/parallelized: contains call
+    442, Memory copy idiom, loop replaced by call to __c_mcopy16
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+    447, Zero trip check eliminated
+         Loop not vectorized/parallelized: contains call
+    455, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+    456, Zero trip check eliminated
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    465, Zero trip check eliminated
+         Loop not vectorized/parallelized: contains call
+get_cis_index:
+    498, Loop not fused: complex flow graph
+    499, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    507, Loop not fused: function call before adjacent loop
+    508, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    520, Loop not fused: different loop trip count
+    521, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    528, Loop not fused: function call before adjacent loop
+    529, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+get_ip_cisd:
+    575, Loop not vectorized/parallelized: contains call
+get_ip_index:
+    734, Memory zero idiom, loop replaced by call to __c_mzero8
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+    735, Memory zero idiom, loop replaced by call to __c_mzero8
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+    741, Loop not fused: different loop trip count
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated an alternate version of the loop
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    749, Loop not fused: complex flow graph
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated an alternate version of the loop
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    757, Loop not fused: scalar dependence chain to sibling loop
+    759, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    767, Loop not fused: different loop trip count
+    769, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    779, Loop not fused: scalar dependence chain to sibling loop
+    781, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+    790, Loop not fused: function call before adjacent loop
+    792, Loop not parallelized: innermost
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+zdiagonalize:
+    877, Memory zero idiom, loop replaced by call to __c_mzero8
+  Timing stats:
+    init                    34 millisecs     4%
+    import                  49 millisecs     5%
+    vectorize              151 millisecs    17%
+    optimize               134 millisecs    15%
+    schedule               400 millisecs    47%
+    unroll                  82 millisecs     9%
+    Total time             850 millisecs
+get_nstuse:
+     58, Loop not fused: no successor loop
+     62, Loop not fused: function call before adjacent loop
+get_1eham:
+     97, Parallel region activated
+     98, Begin sections
+    112, New section
+    123, New section
+    134, New section
+    145, End sections
+         Barrier
+    146, Parallel region terminated
+  Timing stats:
+    import                  33 millisecs    28%
+    vectorize               16 millisecs    13%
+    optimize                16 millisecs    13%
+    schedule                34 millisecs    29%
+    unroll                  17 millisecs    14%
+    Total time             116 millisecs
+get_norm:
+     23, dot_product reduction inlined
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+get_expectation:
+     51, Loop not fused: different loop trip count
+         Parallel code generated with cyclic distribution if trip count is greater than or equal to 50
+     54, Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+     63, Loop unrolled 4 times
+         Generated 1 prefetches in scalar loop
+get_zexpectation:
+     98, Zero trip check eliminated
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+get_psid:
+    125, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    128, Loop not fused: different loop trip count
+    131, Loop not parallelized: innermost
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    134, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+get_zpsid:
+    154, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    157, Loop not fused: different loop trip count
+    160, Loop not parallelized: innermost
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    163, Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+pop_cis:
+    186, Memory zero idiom, loop replaced by call to __c_mzero8
+    189, Memory set idiom, loop replaced by call to __c_mset8
+    190, Memory set idiom, loop replaced by call to __c_mset8
+    192, Memory set idiom, loop replaced by call to __c_mset8
+    195, Loop not vectorized: data dependency
+pop_soc:
+    232, Memory zero idiom, loop replaced by call to __c_mzero8
+    233, Memory set idiom, loop replaced by call to __c_mset8
+    234, Memory set idiom, loop replaced by call to __c_mset8
+    237, Loop not vectorized: data dependency
+pop_ip:
+    276, Memory zero idiom, loop replaced by call to __c_mzero8
+    280, Memory set idiom, loop replaced by call to __c_mset8
+    281, Memory set idiom, loop replaced by call to __c_mset8
+    283, Loop not vectorized: data dependency
+pop_ion:
+    333, Memory zero idiom, loop replaced by call to __c_mzero8
+    336, Loop not fused: complex flow graph
+    342, Loop not parallelized: may not be beneficial
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+    359, Loop not parallelized: may not be beneficial
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+pop_ion2:
+    389, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+         Memory zero idiom, loop replaced by call to __c_mzero8
+    390, Memory copy idiom, loop replaced by call to __c_mcopy8
+    394, Memory copy idiom, loop replaced by call to __c_mcopy8
+    396, Loop not fused: different loop trip count
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    399, Loop not fused: no successor loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    404, Loop not fused: complex flow graph
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    412, Loop not fused: different loop trip count
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+    413, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    421, Loop not fused: complex flow graph
+    425, Zero trip check eliminated
+         Loop not vectorized: data dependency
+    438, Loop not fused: different loop trip count
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+    439, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    446, Loop not fused: function call before adjacent loop
+    451, Zero trip check eliminated
+         Loop not vectorized: data dependency
+    462, Memory copy idiom, array assignment replaced by call to pgf90_mcopy8
+    464, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 8 times
+         Generated 1 prefetches in scalar loop
+get_dyson:
+    493, dot_product reduction inlined
+         Loop not fused: function call before adjacent loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+    498, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    509, Loop not fused: different loop trip count
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    512, Loop not fused: different loop trip count
+         2 loops fused
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+    518, Loop not fused: different loop trip count
+    519, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    527, Loop not fused: function call before adjacent loop
+    532, Zero trip check eliminated
+         Loop not vectorized: data dependency
+    541, Memory zero idiom, loop replaced by call to __c_mzero8
+    543, Loop not fused: function call before adjacent loop
+         Loop not vectorized/parallelized: too deeply nested
+    546, Parallel code generated with block distribution if trip count is greater than or equal to 50
+    547, Zero trip check eliminated
+         Generated 2 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+    561, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    562, Loop not fused: different loop trip count
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    565, Loop not fused: different loop trip count
+         2 loops fused
+         Parallel code generated with block distribution if trip count is greater than or equal to 50
+    571, Loop not fused: different loop trip count
+    572, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    580, Loop not fused: different loop trip count
+    585, Zero trip check eliminated
+         Loop not vectorized: data dependency
+    596, Loop not fused: function call before adjacent loop
+         Loop not vectorized/parallelized: too deeply nested
+    599, Parallel code generated with block distribution if trip count is greater than or equal to 50
+    600, Zero trip check eliminated
+         Generated 2 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+get_modensity:
+    641, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    642, Loop not fused: complex flow graph
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    647, Loop not fused: different loop trip count
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    655, Loop not fused: different loop trip count
+         Loop not vectorized: data dependency
+    682, Zero trip check eliminated
+         Loop not vectorized: data dependency
+fourier_transform:
+    726, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    736, Loop not fused: function call before adjacent loop
+    741, Unrolled inner loop 2 times
+         Generated a prefetch instruction for the loop
+    750, Loop not vectorized/parallelized: contains call
+write_data:
+    784, Loop not vectorized/parallelized: contains call
+    797, Loop not vectorized/parallelized: contains call
+    823, sum reduction inlined
+         Loop not fused: function call before adjacent loop
+         Loop not parallelized: may not be beneficial
+         Generated 2 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+    826, Loop not vectorized/parallelized: contains call
+    827, Loop not vectorized/parallelized: contains call
+    828, Loop not vectorized/parallelized: contains call
+    829, Loop not vectorized/parallelized: contains call
+    831, Loop not vectorized/parallelized: contains call
+    832, Loop not vectorized/parallelized: contains call
+    845, Loop not vectorized/parallelized: contains call
+  Timing stats:
+    init                    84 millisecs    11%
+    import                  17 millisecs     2%
+    expand                  17 millisecs     2%
+    vectorize              167 millisecs    22%
+    optimize               100 millisecs    13%
+    schedule               300 millisecs    40%
+    unroll                  65 millisecs     8%
+    Total time             750 millisecs
+trotter_linear:
+    110, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    111, Loop not fused: function call before adjacent loop
+         Loop unrolled 4 times
+         Generated 1 prefetches in scalar loop
+    118, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    152, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    160, Parallel region activated
+    171, Parallel loop activated with static block schedule
+         Loop not vectorized/parallelized: too deeply nested
+    184, Generated 4 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+    196, Loop not vectorized/parallelized: too deeply nested
+    214, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    215, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    232, Begin critical section (__cs_unspc)
+    233, End critical section (__cs_unspc)
+    237, Memory copy idiom, array assignment replaced by call to pgf90_mcopyz16
+    242, Loop not vectorized/parallelized: contains call
+    249, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    255, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    259, Zero trip check eliminated
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    266, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    276, Zero trip check eliminated
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    303, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    304, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    318, Begin critical section (__cs_unspc)
+    329, End critical section (__cs_unspc)
+    336, Barrier
+    337, Parallel region terminated
+trotter_circular:
+    405, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    406, Loop not fused: function call before adjacent loop
+         Loop unrolled 4 times
+         Generated 1 prefetches in scalar loop
+    413, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    447, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    455, Parallel region activated
+    465, Parallel loop activated with static block schedule
+         Loop not vectorized/parallelized: too deeply nested
+    478, Array assignment / Forall at line 479 fused
+         Generated 5 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+    498, Loop not vectorized/parallelized: too deeply nested
+    518, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    519, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    538, Begin critical section (__cs_unspc)
+    539, End critical section (__cs_unspc)
+    544, Memory copy idiom, array assignment replaced by call to pgf90_mcopyz16
+    548, Loop not vectorized/parallelized: contains call
+    558, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    564, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    568, Zero trip check eliminated
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    575, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    582, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    586, Zero trip check eliminated
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    593, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    603, Zero trip check eliminated
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    611, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    621, Zero trip check eliminated
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    648, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    649, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    664, Begin critical section (__cs_unspc)
+    676, End critical section (__cs_unspc)
+    683, Barrier
+    684, Parallel region terminated
+writeme_propagate:
+    720, Loop not vectorized/parallelized: contains call
+  Timing stats:
+    init                    32 millisecs     6%
+    import                  67 millisecs    12%
+    vectorize              118 millisecs    22%
+    optimize                66 millisecs    12%
+    schedule               217 millisecs    42%
+    unroll                  16 millisecs     3%
+    Total time             516 millisecs
+ztrotter_linear:
+     66, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+     67, Loop not fused: function call before adjacent loop
+         Loop unrolled 4 times
+         Generated 1 prefetches in scalar loop
+     74, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    114, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution for inner loop if trip count is greater than or equal to 100
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    122, Parallel region activated
+    133, Parallel loop activated with static block schedule
+         Loop not vectorized/parallelized: too deeply nested
+    146, Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+    159, Loop not vectorized/parallelized: too deeply nested
+    178, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    179, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    195, Begin critical section (__cs_unspc)
+    196, End critical section (__cs_unspc)
+    200, Memory copy idiom, array assignment replaced by call to pgf90_mcopyz16
+    205, Loop not vectorized/parallelized: contains call
+    212, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    218, Memory zero idiom, array assignment replaced by call to pgf90_mzeroz16
+    222, Zero trip check eliminated
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    229, Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    239, Zero trip check eliminated
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    268, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    269, Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    283, Begin critical section (__cs_unspc)
+    294, End critical section (__cs_unspc)
+    301, Barrier
+    302, Parallel region terminated
+writeme_propagate:
+    686, Loop not vectorized/parallelized: contains call
+  Timing stats:
+    init                    17 millisecs     7%
+    import                  16 millisecs     6%
+    expand                  17 millisecs     7%
+    vectorize               66 millisecs    28%
+    optimize                17 millisecs     7%
+    schedule               100 millisecs    42%
+    Total time             233 millisecs
+davidson_ip:
+     69, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+     70, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+     71, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+     72, Memory zero idiom, loop replaced by call to __c_mzero8
+     80, Parallel region activated
+     82, Parallel loop activated with static block schedule
+         Loop not vectorized/parallelized: contains call
+     86, Barrier
+     87, Parallel region terminated
+    102, Loop unrolled 5 times (completely unrolled)
+    106, Loop not vectorized/parallelized: too deeply nested
+    115, Parallel region activated
+    116, Memory zero idiom, loop replaced by call to __c_mzero8
+    118, Parallel loop activated with static block schedule
+         Loop not vectorized/parallelized: contains call
+    122, Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    125, Barrier
+    127, Begin critical section (__cs_unspc)
+         End critical section (__cs_unspc)
+         Loop not vectorized/parallelized: contains a parallel region
+    129, Parallel region terminated
+    133, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    136, dot_product reduction inlined
+         Loop not parallelized: non-private scalar -- sigma$r
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    143, Loop not vectorized/parallelized: contains call
+    152, Memory zero idiom, loop replaced by call to __c_mzero8
+    154, Copy in and copy out of bigg in call to dsyev
+         Memory copy idiom, loop replaced by call to __c_mcopy8
+    161, Loop not vectorized/parallelized: contains call
+    169, Loop not vectorized/parallelized: potential early exits
+    172, Memory zero idiom, loop replaced by call to __c_mzero8
+    174, Loop not fused: function call before adjacent loop
+    176, Loop not parallelized: may not be beneficial
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 3 prefetch instructions for the loop
+    180, Memory zero idiom, loop replaced by call to __c_mzero8
+    181, Loop not fused: different loop trip count
+         Loop not parallelized: may not be beneficial
+         Generated vector simd code for the loop containing conditionals
+         Generated 3 prefetch instructions for the loop
+    190, dot_product reduction inlined
+         Loop not fused: different loop trip count
+         Loop not parallelized: may not be beneficial
+         Generated 2 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+    191, Array assignment / Forall at line 194 fused
+         Loop not fused: different loop trip count
+         Loop not parallelized: innermost
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    195, Loop not fused: function call before adjacent loop
+    196, dot_product reduction inlined
+         Loop not fused: different loop trip count
+         Loop not parallelized: non-private scalar -- b_i$r
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    197, Loop not parallelized: may not be beneficial
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    199, Memory copy idiom, loop replaced by call to __c_mcopy8
+    203, dot_product reduction inlined
+         Loop not parallelized: may not be beneficial
+         Generated 2 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+    210, Loop not fused: different loop trip count
+         Loop not parallelized: may not be beneficial
+         Generated 4 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop
+         Generated a prefetch instruction for the loop
+    215, dot_product reduction inlined
+         Loop not parallelized: may not be beneficial
+         Generated 2 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated a prefetch instruction for the loop
+    222, maxval reduction inlined
+         Loop unrolled 5 times (completely unrolled)
+    223, maxval reduction inlined
+         Loop unrolled 5 times (completely unrolled)
+    232, Loop not vectorized/parallelized: contains call
+    241, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    242, Memory copy idiom, loop replaced by call to __c_mcopy8
+         Loop not parallelized: innermost
+    243, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    244, Loop not fused: function call before adjacent loop
+         Loop not vectorized/parallelized: loop count too small
+    246, Loop not parallelized: invariant stream calls present
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    251, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    252, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    277, Loop not vectorized/parallelized: contains call
+ip_initial_guess:
+    318, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    319, Memory zero idiom, loop replaced by call to __c_mzero8
+    332, Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    335, Loop not vectorized/parallelized: contains call
+    337, Loop not fused: function call before adjacent loop
+    353, Memory zero idiom, loop replaced by call to __c_mzero8
+get_h_column:
+    373, Memory zero idiom, loop replaced by call to __c_mzero8
+get_trans_elements:
+    584, Memory zero idiom, loop replaced by call to __c_mzero8
+    585, Memory zero idiom, loop replaced by call to __c_mzero8
+    586, Memory zero idiom, loop replaced by call to __c_mzero8
+    590, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    591, Parallel code generated with block distribution if trip count is greater than or equal to 33
+    593, Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    598, Parallel region activated
+    602, Begin sections
+    607, Memory zero idiom, loop replaced by call to __c_mzero8
+    609, Generated 1 prefetches in scalar loop
+    610, dot_product reduction inlined
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    614, New section
+    617, Memory zero idiom, loop replaced by call to __c_mzero8
+    619, Generated 1 prefetches in scalar loop
+    620, dot_product reduction inlined
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    624, New section
+    627, Memory zero idiom, loop replaced by call to __c_mzero8
+    629, Generated 1 prefetches in scalar loop
+    630, dot_product reduction inlined
+         Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop containing reductions
+         Generated 2 prefetch instructions for the loop
+    634, End sections
+         Barrier
+    635, Parallel region terminated
+get_trans_elements2:
+    656, Memory zero idiom, loop replaced by call to __c_mzero8
+    657, Memory zero idiom, loop replaced by call to __c_mzero8
+    658, Memory zero idiom, loop replaced by call to __c_mzero8
+    662, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    663, Loop not fused: function call before adjacent loop
+         Parallel code generated with block distribution if trip count is greater than or equal to 33
+    665, Generated 3 alternate versions of the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+         Generated vector simd code for the loop
+         Generated 2 prefetch instructions for the loop
+    670, Parallel region activated
+    673, Begin sections
+    676, Loop not vectorized/parallelized: contains call
+    680, Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    684, Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    690, New section
+    691, Loop not vectorized/parallelized: contains call
+    695, Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    699, Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    705, New section
+    706, Loop not vectorized/parallelized: contains call
+    710, Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    714, Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+    720, End sections
+         Barrier
+    721, Parallel region terminated
+get_mo_elements:
+    736, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    737, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    739, Parallel region activated
+    740, Begin sections
+    746, New section
+    750, New section
+    754, End sections
+         Barrier
+    755, Parallel region terminated
+get_density:
+    968, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    969, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+   1131, Loop not fused: different loop trip count
+         Loop not parallelized: may not be beneficial
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+   1134, Loop not parallelized: may not be beneficial
+         Loop not vectorized: may not be beneficial
+         Loop unrolled 4 times
+  Timing stats:
+    init                   101 millisecs    11%
+    import                  33 millisecs     3%
+    vectorize              299 millisecs    32%
+    optimize               134 millisecs    14%
+    schedule               283 millisecs    30%
+    unroll                  66 millisecs     7%
+    Total time             916 millisecs
+main:
+    104, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+    105, Memory zero idiom, array assignment replaced by call to pgf90_mzero8
+  Timing stats:
+    import                  16 millisecs    48%
+    unroll                  17 millisecs    51%
+    Total time              33 millisecs
